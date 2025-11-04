@@ -1,9 +1,9 @@
 public class io{
-public static  void main(String[] args){
-IO.println("Hello world");
-var name=IO.readln("What is your name: ");
-var city=IO.readln("where do you come from: ");
-IO.print("You are "+name+" from "+city);
-}
+   public static void main(String[] args) {
+       System.out.println("This is a QA session");
+       var school= IO.readln("What is the name of your school: ");
+       var name=IO.readln("What course do you do: ");
+         System.out.println("you study in "+school+" course name "+name);
 
+   }
 }
